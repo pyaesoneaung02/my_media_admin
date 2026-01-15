@@ -1,0 +1,26 @@
+php artisan make:model tableName -m
+php artisan migrate
+php artisan migrate:refresh (OR) php artisan migrate:fresh
+
+Project Cache
+=============
+php artisan route:clear
+php artisan cache:clear
+php artisan config:cache x 3
+php artisan route:clear
+php artisan view:clear
+
+Project Login
+=============
+
+Email=> psoneaung965@gmail.com
+Password=>pyae@452002
+
+Controller
+==========
+php artisan make: controller NameController
+
+Project Creating
+================
+composer create-project --prefer-dist laravel/laravel project_name "11.*"
+composer create-project laravel/laravel project_name "11.*"
